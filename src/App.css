@@ -39,3 +39,44 @@
 tr{
   display: flex;
 }
+
+table,th,td{
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table{
+  margin-top: 5%;
+  width: 40vw; 
+}
+
+td,th{
+  padding-left: 5%;
+}
+
+.stdt-des{
+  width: 30vw;
+}
+
+.stdt-img{
+  width: 10vw;
+}
+
+
+#stdt-home-submit{
+  margin-right: 30px;
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 9px;
+  background-color: aqua;
+}
+
+#stdt-home-clear{
+  width: 100px;
+  border: none;
+  outline: none;
+  border-radius: 9px;
+  background-color: rgb(247, 111, 101)
+}
