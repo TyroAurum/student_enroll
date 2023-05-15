@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.stdt-home-titlebar{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: darkgray;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  
+}
+.stdt-home-titlebar>header{
+  font-size: medium;
+}
+
+.stdt-home-main-sec{
+  display: flex;
+  justify-content: space-evenly;
+}
+.stdt-home-sub-sec{
+  width: 35%;
+}
+
+.stdt-home-input{
+  display: inline-flex;
+  flex-direction: row;
+  margin: 25px;
+
+}
+
+.stdt-home-input>.form-control{
+  width: 200px;
+  margin-left: 10px;
+}
+
+tr{
+  display: flex;
+}
